@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "sort.h"
 /**
  * swap -  change positions xp for yp
@@ -23,7 +21,7 @@ void selection_sort(int *array, size_t size)
 	size_t step = 0;
 	size_t j;
 
-	for (step = 0; step < size - 1; step++)
+	for (step = 0; step < size - 2; step++)
 	{
 		size_t min = step;
 
